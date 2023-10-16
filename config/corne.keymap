@@ -63,7 +63,7 @@
             bindings = <
 &kp ESC    &kp N1    &kp N2       &kp N3        &kp N4          &kp N5              &kp N6             &kp N7           &kp N8           &kp N9          &kp N0    &kp GRAVE
 &trans     &kp EXCL  &kp AT       &kp HASH      &kp DLLR        &kp PRCNT           &kp CARET          &kp AMPS         &kp KP_MULTIPLY  &kp LPAR        &kp RPAR  &kp COLON
-&kp LSHFT  &trans    &kp KP_PLUS  &kp KP_MINUS  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp KP_EQUAL     &kp UNDERSCORE  &trans    &kp PRINTSCREEN
+&kp LSHFT  &trans    &kp KP_PLUS  &kp KP_MINUS  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL        &kp UNDERSCORE  &trans    &kp PRINTSCREEN
                                   &kp LGUI      &trans          &kp DELETE          &kp KP_N1          &kp KP_N2        &kp QUESTION
             >;
         };
