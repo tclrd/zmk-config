@@ -42,10 +42,10 @@
             //                                   '--------+---------+---------'       '-------+---------+---------'
 
             bindings = <
-&kp ESC        &kp Q  &kp W  &kp E                  &kp R  &kp T           &kp Y      &kp U     &kp I         &kp O    &kp P     &kp BACKSLASH
-&mt LCTRL TAB  &kp A  &kp S  &kp D                  &kp F  &kp G           &kp H      &kp J     &kp K         &kp L    &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z  &kp X  &kp C                  &kp V  &kp B           &kp N      &kp M     &kp COMMA     &kp DOT  &kp FSLH  &kp PAUSE_BREAK
-                             &mt LEFT_ALT LEFT_ALT  &mo 1  &lt 2 RETURN    &kp SPACE  &kp BSPC  &kp LEFT_GUI
+&kp ESC        &kp Q  &kp W  &kp E                  &kp R      &kp T            &kp Y      &kp U  &kp I         &kp O    &kp P     &kp BACKSLASH
+&mt LCTRL TAB  &kp A  &kp S  &kp D                  &kp F      &kp G            &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X  &kp C                  &kp V      &kp B            &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp PAUSE_BREAK
+                             &mt LEFT_ALT LEFT_ALT  &kp SPACE  &kp BACKSPACE    &lt 2 RET  &mo 1  &kp LEFT_GUI
             >;
         };
 
@@ -64,7 +64,7 @@
 &kp ESC    &kp N1    &kp N2       &kp N3        &kp N4          &kp N5              &kp N6             &kp N7           &kp N8           &kp N9          &kp N0    &kp GRAVE
 &trans     &kp EXCL  &kp AT       &kp HASH      &kp DLLR        &kp PRCNT           &kp CARET          &kp AMPS         &kp KP_MULTIPLY  &kp LPAR        &kp RPAR  &kp COLON
 &kp LSHFT  &trans    &kp KP_PLUS  &kp KP_MINUS  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp KP_EQUAL     &kp UNDERSCORE  &trans    &kp PRINTSCREEN
-                                  &kp LGUI      &trans          &mo 0               &kp KP_N1          &kp KP_N2        &kp QUESTION
+                                  &kp LGUI      &trans          &kp DELETE          &kp KP_N1          &kp KP_N2        &kp QUESTION
             >;
         };
 
@@ -83,7 +83,7 @@
 &kp LG(LS(N4))  &trans  &kp HOME        &kp UP_ARROW    &kp END             &kp PAGE_UP            &kp F1  &kp F2   &kp F3   &kp F4   &kp F13  &kp F14
 &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp PAGE_DOWN          &kp F5  &kp F6   &kp F7   &kp F8   &kp F15  &kp F16
 &out OUT_TOG    &trans  &trans          &kp F8          &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp F9  &kp F10  &kp F11  &kp F12  &kp F17  &kp F18
-                                        &kp LGUI        &mo 0               &trans                 &trans  &kp DEL  &trans
+                                        &kp LGUI        &mo 0               &trans                 &trans  &trans   &trans
             >;
         };
     };
